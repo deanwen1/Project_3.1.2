@@ -16,5 +16,5 @@ public interface UserDao {
 
     List<User> listUsers();
 
-    long getUserIdByLogin(String email);
+    User findUserByUsername(String username);
 }

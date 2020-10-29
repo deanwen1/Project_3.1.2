@@ -16,6 +16,4 @@ public interface UserService extends UserDetailsService {
     User getUserById(long id);
 
     List<User> listUsers();
-
-    long getUserIdByLogin(String email);
 }
